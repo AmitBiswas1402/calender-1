@@ -1,3 +1,4 @@
+import EventForm from "@/components/forms/EventForm";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 const NewEvents = () => {
@@ -7,7 +8,7 @@ const NewEvents = () => {
         <CardTitle>New Event</CardTitle>
       </CardHeader>
       <CardContent>
-        {/* <EventForm /> */}
+        <EventForm />
       </CardContent>
     </Card>
   );
